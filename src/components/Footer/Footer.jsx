@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
             <img src={assets.logo} alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, animi pariatur laboriosam perspiciatis quas laudantium eveniet sequi quod temporibus commodi laborum iste repellat quam in voluptatem harum accusamus sint omnis?</p>
+            <p>Tomato is a fast, intuitive food delivery platform designed to bring delicious meals from local restaurants straight to your door. Whether you’re craving pizza, biryani, or desserts, Tomato delivers satisfaction in minutes — hot, fresh, and on time.</p>
             <div className="footer-social-icon">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
@@ -27,13 +27,13 @@ const Footer = () => {
         <div className="footer-content-right">
             <h2>GET IN TOUCH</h2>
             <ul>
-                <li>+91-782-485-8694</li>
+                <li>+91-9178617926</li>
                 <li>contact@tomato.com</li>
             </ul>
         </div>
       </div>
       <hr/>
-      <p className='footer-copyright'>Copyright 2024 Tomato.com - All Right Reserved </p>
+      <p className='footer-copyright'>&copy;2024 Tomato.com - All Right Reserved </p>
     </div>
   )
 }
